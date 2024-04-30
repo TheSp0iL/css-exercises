@@ -1,0 +1,14 @@
+.eins {
+    background-color: hsl(0, 0%, 0%);
+    color: white;
+    font-weight: bold;
+}
+
+.zwei {
+    background-color: #ffff00
+}
+
+.eins,.zwei {
+    font-size: 28px;
+    font-family: helvetica, 'Times New Roman', sans-serif;
+}
