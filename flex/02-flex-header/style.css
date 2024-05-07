@@ -1,3 +1,8 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
 .header  {
   display: flex;
   font-family: monospace;
@@ -13,18 +18,26 @@
   padding: 4px 32px;
   justify-content: center;
   align-items: center;
+<<<<<<< HEAD
   flex: 0 0 auto;
   margin: 5px 0px;
+=======
+>>>>>>> 95957fb26e06bc095cd7f8c8cd7df75f3ff63f35
 }
 
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+<<<<<<< HEAD
   padding: 0px;
   margin: 0px;
   display: flex;
   gap: 20px;
   }
+=======
+  display: flex;
+}
+>>>>>>> 95957fb26e06bc095cd7f8c8cd7df75f3ff63f35
 
 a {
   font-size: 22px;
@@ -32,6 +45,7 @@ a {
   padding: 8px;
   /* this removes the line under the links */
   text-decoration: none;
+<<<<<<< HEAD
   
   }
 
@@ -51,3 +65,18 @@ a {
     margin-right: 2rem;
 }
 
+=======
+}
+
+.left-links li {
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2rem;
+}
+
+.right-links {
+  justify-content: flex-end;
+  align-items: center;
+  gap: 15px;
+}
+>>>>>>> 95957fb26e06bc095cd7f8c8cd7df75f3ff63f35
